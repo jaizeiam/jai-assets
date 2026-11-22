@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' preserveAspectRatio='none' width='400' height='300'>
+<defs><filter id='g' x='-10%' y='-10%' width='120%' height='120%'><feGaussianBlur stdDeviation='2.6' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter></defs>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#ff7ab8' stroke-width='3' opacity='.55'><animate attributeName='opacity' values='.45;.8;.45' dur='3s' repeatCount='indefinite'/></rect>
+<g filter='url(#g)'>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#ff7ab8' stroke-width='3' stroke-linecap='round' pathLength='1000' stroke-dasharray='230 770' stroke-dashoffset='230' opacity='0.3'><animate attributeName='stroke-dashoffset' values='230;-770' dur='4s' repeatCount='indefinite'/></rect>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#ff7ab8' stroke-width='3' stroke-linecap='round' pathLength='1000' stroke-dasharray='130 870' stroke-dashoffset='130' opacity='0.55'><animate attributeName='stroke-dashoffset' values='130;-870' dur='4s' repeatCount='indefinite'/></rect>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#fff0f8' stroke-width='3.2' stroke-linecap='round' pathLength='1000' stroke-dasharray='48 952' stroke-dashoffset='48' opacity='1'><animate attributeName='stroke-dashoffset' values='48;-952' dur='4s' repeatCount='indefinite'/></rect>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#9f86ff' stroke-width='3' stroke-linecap='round' pathLength='1000' stroke-dasharray='230 770' stroke-dashoffset='730' opacity='0.3'><animate attributeName='stroke-dashoffset' values='730;-270' dur='4s' repeatCount='indefinite'/></rect>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#9f86ff' stroke-width='3' stroke-linecap='round' pathLength='1000' stroke-dasharray='130 870' stroke-dashoffset='630' opacity='0.55'><animate attributeName='stroke-dashoffset' values='630;-370' dur='4s' repeatCount='indefinite'/></rect>
+<rect x='2' y='2' width='396' height='296' rx='16' fill='none' stroke='#ece6ff' stroke-width='3.2' stroke-linecap='round' pathLength='1000' stroke-dasharray='48 952' stroke-dashoffset='548' opacity='1'><animate attributeName='stroke-dashoffset' values='548;-452' dur='4s' repeatCount='indefinite'/></rect>
+</g>
+</svg>
