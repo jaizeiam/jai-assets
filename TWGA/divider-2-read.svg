@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 48' width='360' height='48'>
+<defs>
+<linearGradient id='fl' x1='0' x2='1'><stop offset='0' stop-color='#8873a8' stop-opacity='0'/><stop offset='1' stop-color='#8873a8' stop-opacity='.6'/></linearGradient>
+<linearGradient id='fr' x1='0' x2='1'><stop offset='0' stop-color='#8873a8' stop-opacity='.6'/><stop offset='1' stop-color='#8873a8' stop-opacity='0'/></linearGradient>
+<linearGradient id='cm' x1='0' x2='1'><stop offset='0' stop-color='#ff7ab8' stop-opacity='0'/><stop offset='1' stop-color='#ff7ab8'/></linearGradient>
+<linearGradient id='cr' x1='0' x2='1'><stop offset='0' stop-color='#ff7ab8'/><stop offset='1' stop-color='#ff7ab8' stop-opacity='0'/></linearGradient>
+</defs>
+<rect x='12' y='23' width='128' height='2' rx='1' fill='url(#fl)'/>
+<rect x='224' y='23' width='124' height='2' rx='1' fill='url(#fr)'/>
+<g><animate attributeName='opacity' values='1;1;0;0' keyTimes='0;.82;.95;1' dur='3.2s' repeatCount='indefinite'/>
+<path transform='translate(152,14)' d='M0 12 L6 18 L18 2' pathLength='20' stroke-dasharray='20' fill='none' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' stroke='#8873a8' stroke-dashoffset='20'><animate attributeName='stroke-dashoffset' values='20;0;0;20' keyTimes='0;.16;.96;1' dur='3.2s' repeatCount='indefinite'/><animate attributeName='stroke' values='#8873a8;#8873a8;#ff7ab8;#ff7ab8' keyTimes='0;.4;.5;1' dur='3.2s' repeatCount='indefinite'/></path>
+<path transform='translate(160,14)' d='M0 12 L6 18 L18 2' pathLength='20' stroke-dasharray='20' fill='none' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' stroke='#8873a8' stroke-dashoffset='20'><animate attributeName='stroke-dashoffset' values='20;20;0;0;20' keyTimes='0;.16;.32;.96;1' dur='3.2s' repeatCount='indefinite'/><animate attributeName='stroke' values='#8873a8;#8873a8;#ff7ab8;#ff7ab8' keyTimes='0;.4;.5;1' dur='3.2s' repeatCount='indefinite'/></path>
+<text x='190' y='30' font-family='Arial,Helvetica,sans-serif' font-size='11' letter-spacing='1.5' fill='#ff7ab8' opacity='0'>read<animate attributeName='opacity' values='0;0;1;1;0;0' keyTimes='0;.45;.55;.82;.95;1' dur='3.2s' repeatCount='indefinite'/></text>
+</g>
+</svg>

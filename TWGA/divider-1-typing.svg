@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 48' width='360' height='48'>
+<defs>
+<linearGradient id='fl' x1='0' x2='1'><stop offset='0' stop-color='#8873a8' stop-opacity='0'/><stop offset='1' stop-color='#8873a8' stop-opacity='.6'/></linearGradient>
+<linearGradient id='fr' x1='0' x2='1'><stop offset='0' stop-color='#8873a8' stop-opacity='.6'/><stop offset='1' stop-color='#8873a8' stop-opacity='0'/></linearGradient>
+<linearGradient id='cm' x1='0' x2='1'><stop offset='0' stop-color='#ff7ab8' stop-opacity='0'/><stop offset='1' stop-color='#ff7ab8'/></linearGradient>
+<linearGradient id='cr' x1='0' x2='1'><stop offset='0' stop-color='#ff7ab8'/><stop offset='1' stop-color='#ff7ab8' stop-opacity='0'/></linearGradient>
+</defs>
+<rect x='12' y='23' width='122' height='2' rx='1' fill='url(#fl)'/>
+<rect x='226' y='23' width='122' height='2' rx='1' fill='url(#fr)'/>
+<rect y='23' width='30' height='2' rx='1' fill='url(#cm)' opacity='0'><animate attributeName='x' values='12;104' dur='1.2s' begin='0s' repeatCount='indefinite'/><animate attributeName='opacity' values='0;1;1;0' keyTimes='0;.2;.8;1' dur='1.2s' begin='0s' repeatCount='indefinite'/></rect>
+<rect y='23' width='30' height='2' rx='1' fill='url(#cm)' opacity='0'><animate attributeName='x' values='226;318' dur='1.2s' begin='0s' repeatCount='indefinite'/><animate attributeName='opacity' values='0;1;1;0' keyTimes='0;.2;.8;1' dur='1.2s' begin='0s' repeatCount='indefinite'/></rect>
+<rect x='140' y='9' width='80' height='30' rx='15' fill='#2a1f3b'/>
+<path d='M152 35 L147 44 L161 37 Z' fill='#2a1f3b'/>
+<circle cx='162' cy='24' r='3.8' fill='#8873a8'><animate attributeName='cy' values='24;17;24;24' keyTimes='0;.25;.5;1' dur='1.2s' begin='0.00s' repeatCount='indefinite'/><animate attributeName='fill' values='#8873a8;#ff7ab8;#8873a8;#8873a8' keyTimes='0;.25;.5;1' dur='1.2s' begin='0.00s' repeatCount='indefinite'/></circle>
+<circle cx='180' cy='24' r='3.8' fill='#8873a8'><animate attributeName='cy' values='24;17;24;24' keyTimes='0;.25;.5;1' dur='1.2s' begin='0.15s' repeatCount='indefinite'/><animate attributeName='fill' values='#8873a8;#ff7ab8;#8873a8;#8873a8' keyTimes='0;.25;.5;1' dur='1.2s' begin='0.15s' repeatCount='indefinite'/></circle>
+<circle cx='198' cy='24' r='3.8' fill='#8873a8'><animate attributeName='cy' values='24;17;24;24' keyTimes='0;.25;.5;1' dur='1.2s' begin='0.30s' repeatCount='indefinite'/><animate attributeName='fill' values='#8873a8;#ff7ab8;#8873a8;#8873a8' keyTimes='0;.25;.5;1' dur='1.2s' begin='0.30s' repeatCount='indefinite'/></circle>
+</svg>
